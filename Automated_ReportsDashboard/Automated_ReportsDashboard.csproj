@@ -51,22 +51,40 @@
   <ItemGroup>
     <Compile Include="Data\DataService.cs" />
     <Compile Include="Data\Helper.cs" />
-    <Compile Include="Forms\InstuitMGR\AddEditeClass.cs">
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeClass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\InstuitMGR\AddEditeClass.Designer.cs">
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeClass.Designer.cs">
       <DependentUpon>AddEditeClass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\InstuitMGR\AddEditeDivison.cs">
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeDivison.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\InstuitMGR\AddEditeDivison.Designer.cs">
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeDivison.Designer.cs">
       <DependentUpon>AddEditeDivison.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\InstuitMGR\AddEditeTest.cs">
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeHall.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\InstuitMGR\AddEditeTest.Designer.cs">
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeHall.Designer.cs">
+      <DependentUpon>AddEditeHall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeTeacher.Designer.cs">
+      <DependentUpon>AddEditeTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeTime.Designer.cs">
+      <DependentUpon>AddEditeTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InstuitMGR\AddEdite\AddEditeTest.Designer.cs">
       <DependentUpon>AddEditeTest.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\InstuitMGR\Classes.cs">
@@ -105,15 +123,48 @@
     <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\StudentMGR\AddEditeStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentMGR\AddEditeStudent.Designer.cs">
+      <DependentUpon>AddEditeStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentMGR\AddPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentMGR\AddPayment.Designer.cs">
+      <DependentUpon>AddPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentMGR\Payments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentMGR\Payments.Designer.cs">
+      <DependentUpon>Payments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentMGR\Students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentMGR\Students.Designer.cs">
+      <DependentUpon>Students.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\InstuitMGR\AddEditeClass.resx">
+    <EmbeddedResource Include="Forms\InstuitMGR\AddEdite\AddEditeClass.resx">
       <DependentUpon>AddEditeClass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\InstuitMGR\AddEditeDivison.resx">
+    <EmbeddedResource Include="Forms\InstuitMGR\AddEdite\AddEditeDivison.resx">
       <DependentUpon>AddEditeDivison.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\InstuitMGR\AddEditeTest.resx">
+    <EmbeddedResource Include="Forms\InstuitMGR\AddEdite\AddEditeHall.resx">
+      <DependentUpon>AddEditeHall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InstuitMGR\AddEdite\AddEditeTeacher.resx">
+      <DependentUpon>AddEditeTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InstuitMGR\AddEdite\AddEditeTime.resx">
+      <DependentUpon>AddEditeTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InstuitMGR\AddEdite\AddEditeTest.resx">
       <DependentUpon>AddEditeTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\InstuitMGR\Classes.resx">
@@ -133,6 +184,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentMGR\AddEditeStudent.resx">
+      <DependentUpon>AddEditeStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentMGR\AddPayment.resx">
+      <DependentUpon>AddPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentMGR\Payments.resx">
+      <DependentUpon>Payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentMGR\Students.resx">
+      <DependentUpon>Students.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -180,6 +243,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment_history_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash_in_hand_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash_in_hand_40px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
