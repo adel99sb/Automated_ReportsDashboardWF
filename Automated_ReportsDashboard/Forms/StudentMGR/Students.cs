@@ -18,7 +18,7 @@ namespace Automated_ReportsDashboard.Forms.StudentMGR
         public Students()
         {
             InitializeComponent();
-            this.SetThemFullWindow();
+            this.SetThemFullWindow();            
         }
 
         private void Students_FormClosed(object sender, FormClosedEventArgs e)

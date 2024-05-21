@@ -1,4 +1,5 @@
 ﻿using Automated_ReportsDashboard.Data;
+using Automated_ReportsDashboard.Forms.DailayTasksMGR;
 using Automated_ReportsDashboard.Forms.InstuitMGR;
 using Automated_ReportsDashboard.Forms.StudentMGR;
 using MaterialSkin;
@@ -39,6 +40,13 @@ namespace Automated_ReportsDashboard.Forms
             {
                e.Cancel = true;
             }
+        }
+
+        private void materialButton4_Click(object sender, System.EventArgs e)
+        {
+            DailyTasks dailyTasks = new DailyTasks();
+            dailyTasks.Show();
+            this.Hide();
         }
     }
 }

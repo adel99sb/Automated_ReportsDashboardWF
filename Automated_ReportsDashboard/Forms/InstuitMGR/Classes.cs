@@ -94,7 +94,7 @@ namespace Automated_ReportsDashboard.Forms.InstuitMGR
         {
             InstuitMGR instuitMGR = new InstuitMGR();
             instuitMGR.Show();
-            this.Hide();
+            this.Hide();            
         }
     }
 }

@@ -73,6 +73,16 @@ namespace Automated_ReportsDashboard.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrow_64px {
+            get {
+                object obj = ResourceManager.GetObject("arrow_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cash_in_hand_40px {
             get {
                 object obj = ResourceManager.GetObject("cash_in_hand_40px", resourceCulture);

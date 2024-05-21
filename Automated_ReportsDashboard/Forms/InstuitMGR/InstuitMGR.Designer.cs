@@ -121,7 +121,7 @@
             this.materialTabControl1.Multiline = true;
             this.materialTabControl1.Name = "materialTabControl1";
             this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(1370, 721);
+            this.materialTabControl1.Size = new System.Drawing.Size(1380, 721);
             this.materialTabControl1.TabIndex = 0;
             // 
             // tabPage2
@@ -139,7 +139,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1362, 673);
+            this.tabPage2.Size = new System.Drawing.Size(1372, 673);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "الشعب";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -148,7 +148,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(154, 80);
+            this.label5.Location = new System.Drawing.Point(159, 80);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 13);
             this.label5.TabIndex = 14;
@@ -159,7 +159,7 @@
             this.materialFloatingActionButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialFloatingActionButton1.Depth = 0;
             this.materialFloatingActionButton1.Icon = global::Automated_ReportsDashboard.Properties.Resources.delete;
-            this.materialFloatingActionButton1.Location = new System.Drawing.Point(991, 271);
+            this.materialFloatingActionButton1.Location = new System.Drawing.Point(996, 271);
             this.materialFloatingActionButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton1.Name = "materialFloatingActionButton1";
             this.materialFloatingActionButton1.Size = new System.Drawing.Size(56, 56);
@@ -172,7 +172,7 @@
             // 
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(225, 220);
+            this.dataGridView1.Location = new System.Drawing.Point(230, 220);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(361, 245);
             this.dataGridView1.TabIndex = 10;
@@ -185,7 +185,7 @@
             this.materialButton1.Depth = 0;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(917, 57);
+            this.materialButton1.Location = new System.Drawing.Point(922, 57);
             this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
@@ -203,7 +203,7 @@
             this.materialFloatingActionButton3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialFloatingActionButton3.Depth = 0;
             this.materialFloatingActionButton3.Icon = global::Automated_ReportsDashboard.Properties.Resources.tools;
-            this.materialFloatingActionButton3.Location = new System.Drawing.Point(821, 378);
+            this.materialFloatingActionButton3.Location = new System.Drawing.Point(826, 378);
             this.materialFloatingActionButton3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton3.Name = "materialFloatingActionButton3";
             this.materialFloatingActionButton3.Size = new System.Drawing.Size(56, 56);
@@ -217,7 +217,7 @@
             this.materialFloatingActionButton4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialFloatingActionButton4.Depth = 0;
             this.materialFloatingActionButton4.Icon = global::Automated_ReportsDashboard.Properties.Resources.flow_chart;
-            this.materialFloatingActionButton4.Location = new System.Drawing.Point(991, 378);
+            this.materialFloatingActionButton4.Location = new System.Drawing.Point(996, 378);
             this.materialFloatingActionButton4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton4.Name = "materialFloatingActionButton4";
             this.materialFloatingActionButton4.Size = new System.Drawing.Size(56, 56);
@@ -231,7 +231,7 @@
             this.materialFloatingActionButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialFloatingActionButton2.Depth = 0;
             this.materialFloatingActionButton2.Icon = global::Automated_ReportsDashboard.Properties.Resources.edit;
-            this.materialFloatingActionButton2.Location = new System.Drawing.Point(821, 271);
+            this.materialFloatingActionButton2.Location = new System.Drawing.Point(826, 271);
             this.materialFloatingActionButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton2.Name = "materialFloatingActionButton2";
             this.materialFloatingActionButton2.Size = new System.Drawing.Size(56, 56);
@@ -255,7 +255,7 @@
             this.materialComboBox1.FormattingEnabled = true;
             this.materialComboBox1.IntegralHeight = false;
             this.materialComboBox1.ItemHeight = 43;
-            this.materialComboBox1.Location = new System.Drawing.Point(225, 55);
+            this.materialComboBox1.Location = new System.Drawing.Point(230, 55);
             this.materialComboBox1.MaxDropDownItems = 4;
             this.materialComboBox1.MouseState = MaterialSkin.MouseState.OUT;
             this.materialComboBox1.Name = "materialComboBox1";
@@ -270,7 +270,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(785, 207);
+            this.groupBox1.Location = new System.Drawing.Point(790, 207);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(383, 258);
             this.groupBox1.TabIndex = 13;
@@ -324,7 +324,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 44);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1346, 673);
+            this.tabPage1.Size = new System.Drawing.Size(1362, 673);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "القاعات";
             // 
@@ -482,7 +482,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 44);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1346, 673);
+            this.tabPage3.Size = new System.Drawing.Size(1362, 673);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "المواعيد";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -583,7 +583,7 @@
             this.tabPage4.ImageKey = "tuition_30px.png";
             this.tabPage4.Location = new System.Drawing.Point(4, 44);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1346, 673);
+            this.tabPage4.Size = new System.Drawing.Size(1362, 673);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "المدرسين";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -739,7 +739,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1376, 788);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
             this.Controls.Add(this.materialTabControl1);
             this.DrawerTabControl = this.materialTabControl1;
             this.DrawerWidth = 150;

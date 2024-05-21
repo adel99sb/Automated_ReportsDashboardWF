@@ -1,13 +1,6 @@
 ﻿using Automated_ReportsDashboard.Data;
 using MaterialSkin.Controls;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Automated_ReportsDashboard.Forms.InstuitMGR
@@ -18,7 +11,10 @@ namespace Automated_ReportsDashboard.Forms.InstuitMGR
         {
             InitializeComponent();
             this.SetThemFullWindow();
-            
+            DataService dataService = new DataService();
+            var res = dataService.GetAllCertificates().Result;
+            //var res1 = res.ToObj<GetAllCertificatesResponse>();
+            //materialComboBox1.DataSource = res1.certificates;
         }
 
         private void materialButton1_Click(object sender, EventArgs e)

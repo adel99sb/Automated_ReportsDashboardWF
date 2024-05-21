@@ -1,4 +1,5 @@
 ﻿using Automated_ReportsDashboard.Forms;
+using Automated_ReportsDashboard.Forms.DailayTasksMGR;
 using Automated_ReportsDashboard.Forms.InstuitMGR;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace Automated_ReportsDashboard
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new InstuitMGR());
         }
     }
 }
